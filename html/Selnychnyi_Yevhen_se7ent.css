@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-attachment: fixed;
+    background-image: url(https://images.wallpaperscraft.ru/image/svetlyy_fon_svet_tekstura_50370_1920x1080.jpg);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-size: 100%;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+.top{
+    width: auto;
+    height: 165px;
+}
+.top_bord{
+    width: 1100px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    display: flex;
+}
+.se7{
+    font-size: 30px;
+    font-family: myriad-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.s7{
+    background-color: grey;
+    font-size: 30px;
+    font-family: myriad-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.rwt_div{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.rwt{
+    border-left: 2px solid gray;
+    padding-left: 10px;
+    font-size: 18px;
+}
+.icon_top{
+    display: flex;
+}
+.fb, .tw, .vr, .vv, .bt{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.navi{
+    width: 1100px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+}
+.menu{
+    display: flex;
+    font-size: 20px;
+}
+.search{
+    color: grey;
+    padding-left: 30px;
+}
+.home, .feat, .port, .short, .blog, .contact{
+    padding: 20px;
+}
+.feat, .port, .short, .blog, .contact{
+    border-left: 2px solid lightgray;
+}
+main .selection{
+    width: 1100px;
+    background: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.top_m{
+    border: 2px solid lightgray;
+    margin: 30px 30px 10px 30px;
+    padding-top: 100px;
+    padding-right: 595px;
+    padding-bottom: 200px;
+    padding-left: 80px;
+}
+h1{
+    width: 361px;
+}
+.vest{
+    font-size: 20px;
+}
+.buy{
+    padding: 5px;
+    margin-top: 10px;
+    background: lightgray;
+}
+.dot i{
+    font-size: 40px;
+}
+.aen{
+    border: 2px solid lightgray;
+    margin: 10px 30px 10px 30px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.buy21{
+    padding: 5px;
+    margin-right: 10px;
+    margin-left: 70px;
+    background: lightgray;
+}
+.text_aen{
+    margin-left: 20px;
+}
+.icon_text{
+    display: flex;
+}
+.males, .aliq, .ultr{
+    display: flex;
+    width: 335px;
+    height: 100px;
+    padding: 20px 0 20px 0;
+}
+.males_icon, .aliq_icon, .ultr_icon{
+    font-size: 30px;
+    padding: 20px 0 20px 0;
+}
+.males_text, .aliq_text, .ultr_text{
+    padding: 10px;
+}
+.males_text p, .aliq_text p, .ultr_text p{
+    font-size: 12px;
+    margin-top: 5px;
+}
+.aliq{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.rec{
+    width: 1100px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.recen{
+    margin-left: 30px;
+    font-size: 20px;
+}
+.view{
+    margin-right: 30px; 
+}
+.vi{
+    background: lightgray;
+    padding: 5px;
+    color: white;
+    border: none;
+}
+.img123{
+    display: flex;
+    justify-content: center;
+    width: 1100px;
+    height: 400px;
+}
+.img1 img, .img2 img, .img3 img{
+    width: 340px;
+    height: 200px;
+}
+img{
+    width: 100%;
+}
+.img2{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.img1, .img2, .img3{
+    width: 340px;
+    height: 300px;
+}
+main .selection2{
+    width: 1100px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.firm{
+    background: white;
+    width: 1100px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.tel, .zw, .pol, .exi, .sou{
+    font-size: 50px;
+    color: gray;
+}
+.about{
+    width: 1100px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+.cras{
+    margin-top: 15px;
+}
+.about .ab p, .about .lat p, .about .repo p{
+    color: white;
+}
+.about .ab b, .about .lat b, .about .repo b, .about .photo b{
+    color: white;
+}
+.ii{
+    color: white;
+    font-size: 30px;
+}
+.lat i, .repo i, .photo i{
+    color: grey;
+    margin-left: 110px;
+    font-size: 20px;
+}
+.lat, .repo{
+    width: 250px;
+    height: 270px;
+    margin: 15px;
+}
+.ab{
+    width: 250px;
+    height: 270px;
+    margin: 15px 15px 15px 30px;
+}
+.photo{
+    width: 250px;
+    height: 270px;
+    margin: 15px 30px 15px 15px;
+
+}
+.phst{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.photo1, .photo2, .photo3, .photo4, .photo5, .photo6{
+    width: 70px;
+    height: 70px;
+    margin: 4px;
+}
+.photo1 img, .photo2 img, .photo3 img, .photo4 img, .photo5 img, .photo6 img{
+    width: 100%;
+}
+footer{
+    width: 1100px;
+    height: 50px;
+    background: black;
+    margin-bottom: 30px;
+}
+.end{
+    width: 1040px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.copy, .terms{
+    color: grey;
+}

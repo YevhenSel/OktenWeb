@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="def563b8-5d4b-49b7-8f66-c02aa239aca1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Z2VjJdKcwVNFqAelCnpLuSKLEw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Telegram/index (4).html" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.emmet.xml" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Selnychnyi_Yevhen_Shopno.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html/Selnychnyi_Yevhen_Shopno.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.Selnychnyi_Yevhen_Shopno.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="showServicesTree" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Yevhen\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="def563b8-5d4b-49b7-8f66-c02aa239aca1" name="Default Changelist" comment="" />
+      <created>1584037310245</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584037310245</updated>
+      <workItem from="1584037312915" duration="1237000" />
+      <workItem from="1584038637031" duration="136000" />
+      <workItem from="1584040561662" duration="176000" />
+      <workItem from="1584107362066" duration="5972000" />
+      <workItem from="1584116335697" duration="23545000" />
+      <workItem from="1584274123044" duration="533000" />
+      <workItem from="1584274819444" duration="7509000" />
+      <workItem from="1584388453780" duration="681000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="25" key="#Inspections" timestamp="1584388490144">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="25" key="#Inspections/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1584388490144" />
+    <state x="275" y="25" key="#Servers" timestamp="1584111976880">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="25" key="#Servers/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1584111976880" />
+    <state x="399" y="220" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1584038335011">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="399" y="220" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1366.728@0.0.1366.728" timestamp="1584038335011" />
+    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1584278709643">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1584278709643" />
+    <state x="186" y="9" key="SettingsEditor" timestamp="1584116975167">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="186" y="9" key="SettingsEditor/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1584116975167" />
+    <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1584038774025" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1584125599068">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1584125599068" />
+  </component>
+</project>

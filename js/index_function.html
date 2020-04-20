@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #text{
+            background: yellow;
+            border: 1px solid brown;
+            padding: 10px;
+            width: 150px;
+            text-align: center;
+        }
+        button {
+            padding: 10px;
+            width: 172px;
+            text-align: center;
+        }
+        input {
+            width: 168px;
+            height: 28px;
+            text-align: center;
+            font-size: 20px;
+        }
+        #menu {
+            width: 200px;
+            height: 40px;
+            font-size: 30px;
+            padding: 5px;
+            border: 1px solid darkblue;
+            background-color: aqua;
+            text-align: center;
+            /*cursor: pointer;*/
+            position: relative;
+        }
+        #menuClick li{
+            width: 200px;
+            height: 40px;
+            font-size: 30px;
+            padding: 5px;
+            border: 1px solid darkblue;
+            background-color: aqua;
+            list-style-type: none;
+            text-align: center;
+        }
+        #menuClick {
+            position: absolute;
+            bottom: -105px;
+            left: 171px;
+        }
+        #carusel {
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+        }
+        #btn-left-right, #imgContainer {
+            display: flex;
+            justify-content: center;
+        }
+        #imgContainer img {
+            height: 500px;
+            width: 500px;
+        }
+        #back-container {
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+<!--<div id="fuCars"></div>-->
+<!--///-----------------------------------------------------------------//-->
+<!--<div id="text">-->
+<!--    <span>OktenWeb</span>-->
+<!--</div>-->
+<!--<button>goodbye</button>-->
+<!--<br>-->
+<!--<br>-->
+<!--<br>-->
+<!--<input id="inputAge" type="text" placeholder="age">-->
+<!--<button>OKEY</button>-->
+<!--<ul id="menu">-->
+<!--    <li><a href="#">LANGUAGE</a>-->
+<!--        <ul id="menuClick">-->
+<!--            <li><a href="#">JAVA</a></li>-->
+<!--            <li><a href="#">JAVA SCRIPT</a></li>-->
+<!--            <li><a href="#">PYTHON</a></li>-->
+<!--        </ul>-->
+<!--    </li>-->
+<!--</ul>-->
+<!--///----------------------------------------------------------------//-->
+<!--<form action="#" name="form1">-->
+<!--    <input type="text" name="input1">-->
+<!--    <input type="text" name="input2">-->
+<!--</form>-->
+<!--<form action="#" name="form2">-->
+<!--    <input type="text" name="input3">-->
+<!--    <input type="text" name="input4">-->
+<!--</form>-->
+<!--<button id="btn-input">BUTTON</button>-->
+<!--///----------------------------------------------------------------//-->
+<!--<label for="inp1"></label><input id="inp1" type="number" placeholder="line">-->
+<!--<label for="inp2"></label><input id="inp2" type="number" placeholder="column">-->
+<!--<label for="inp3"></label><input id="inp3" type="text" placeholder="text">-->
+<!--<button id="btn_inp">TABLE</button>-->
+<!--///----------------------------------------------------------------//-->
+<!--<div id="carusel">-->
+<!--    <div id="imgContainer"></div>-->
+<!--    <div id="btn-left-right">-->
+<!--        <button id="left">LEFT</button>-->
+<!--        <button id="right">RIGHT</button>-->
+<!--    </div>-->
+<!--</div>-->
+<!--///----------------------------------------------------------------//-->
+<!--<div id="back-container">-->
+<!--    <div id="content"></div>-->
+<!--    <div id="wrap">-->
+<!--        <h1>Правила бойцовского клуба</h1>-->
+<!--        <div class="rules rule1">-->
+<!--            <h2>Первое правило Бойцовского клуба.</h2>-->
+<!--            <p>Никому не рассказывать о Бойцовском клубе.</p>-->
+<!--        </div>-->
+<!--        <div class="rules rule2">-->
+<!--            <h2>Второе правило Бойцовского клуба.</h2>-->
+<!--            <p>Никогда никому не рассказывать о Бойцовском клубе.</p>-->
+<!--        </div>-->
+<!--        <div class="rules rule3">-->
+<!--            <h2>Третье правило Бойцовского клуба.</h2>-->
+<!--            <p>В схватке участвуют только двое.</p>-->
+<!--        </div>-->
+<!--        <div class="rules rule4">-->
+<!--            <h2>Четвертое правило Бойцовского клуба.</h2>-->
+<!--            <p>Не более одного поединка за один раз.</p>-->
+<!--        </div>-->
+<!--        <div class="rules rule5">-->
+<!--            <h2>Пятое правило Бойцовского клуба.</h2>-->
+<!--            <p>Бойцы сражаются без обуви и голые по пояс.</p>-->
+<!--        </div>-->
+<!--        <div class="rules rule6">-->
+<!--            <h2>Шестое правило Бойцовского клуба.</h2>-->
+<!--            <p>Поединок продолжается столько, сколько потребуется.</p>-->
+<!--        </div>-->
+<!--        <div class="rules rule7">-->
+<!--            <h2>Седьмое правило Бойцовского клуба.</h2>-->
+<!--            <p>Если противник потерял сознание или делает вид, что потерял, или говорит «Хватит» — поединок-->
+<!--                окончен.</p>-->
+<!--        </div>-->
+<!--        <div class="rules rule8">-->
+<!--            <h2>Восьмое и последнее правило Бойцовского клуба.</h2>-->
+<!--            <p>Новичок обязан принять бой.</p>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+<!--///----------------------------------------------//-->
+<!--<div id="checkContainer"></div>-->
+<!--///----------------------------------------------//-->
+<!--///----------------------------------------------//-->
+<!--<textarea id="textarea" name="text" cols="70" rows="20"></textarea>-->
+<!--///----------------------------------------------//-->
+<!--<fieldset>-->
+<!--    <legend>Form</legend>-->
+<!--    <form id="form1" oninput="saveForm(this)">-->
+<!--        <textarea id="textarea1" name="textarea1" cols="70" rows="20"></textarea>-->
+<!--        <input type="text" id="input1" name="input1">-->
+<!--        <input type="number" id="number" name="number">-->
+<!--        <input type="checkbox" id="check" name="check" value="false">-->
+<!--        <input type="radio" id="radio1" name="radio" value="false">-->
+<!--        <input type="radio" id="radio2" name="radio" value="false">-->
+<!--        <select id="select" name="select">-->
+<!--            <option>Item 1</option>-->
+<!--            <option>Item 2</option>-->
+<!--            <option>Item 3</option>-->
+<!--            <option>Item 4</option>-->
+<!--            <option>Item 5</option>-->
+<!--        </select>-->
+<!--    </form>-->
+<!--</fieldset>-->
+<!--///---------------------------------------------//-->
+<!--<div>-->
+<!--    <input type="button" id="left" value="left">-->
+<!--    <input type="button" id="right" value="right">-->
+<!--</div>-->
+<!--<textarea id="text-area" name="text-area" cols="50" rows="20"></textarea>-->
+<!--<br>-->
+<!--<input type="button" id="save" name="save" value="SAVE">-->
+<!--///---------------------------------------------//-->
+<!--<input type="date" id="date" name="date">-->
+<!--<br>-->
+<!--<textarea name="textArea" id="textArea" cols="50" rows="20"></textarea>-->
+<!--<br>-->
+<!--<input type="button" id="newNote" value="New Note">-->
+<!--<input type="button" id="write" value="write">-->
+<!--<input type="button" id="read" value="read">-->
+
+<!--<script src="main_lesson4.js"></script>-->
+<!--<script src="main_lesson5.js"></script>-->
+<!--<script src="main_lesson6.js"></script>-->
+<!--<script src="main_lesson7.js"></script>-->
+<script src="main_lesson8.js"></script>
+</body>
+</html>

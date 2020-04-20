@@ -1,0 +1,186 @@
+.all{
+    background: red;
+    height: 600px;
+    width: 900px;
+    display: inline-block;
+    padding: 10px;
+}
+p{
+    margin: auto;
+    text-align: center;
+}
+.first{
+    background: slateblue;
+    height: 180px;
+    width: 900px;
+    position: relative;
+}
+.white{
+    background: white;
+    height: 120px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.black{
+    background: black;
+    height: 70px;
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.second{
+    background: silver;
+    height: 100px;
+    width: 900px;
+    position: relative;   
+}
+.red2{
+    background: red;
+    height: 64px;
+    width: 225px;
+    float: left;
+}
+.orange2{
+    background: orange;
+    height: 64px;
+    width: 225px;
+    float: left;
+}
+.corn2{
+    background: cornflowerblue;
+    height: 64px;
+    width: 225px;
+    float: left;
+}
+.yellow2{
+    background: yellow;
+    height: 64px;
+    width: 225px;
+    float: left;
+}
+.third{
+    position: relative;
+}
+.green3{
+    background: green;
+    height: 320px;
+    width: 300px;
+    float: left;
+    position: relative;
+}
+.orange3{
+    background: orange;
+    height: 250px;
+    width: 200px;
+    position: absolute;
+    top: 61%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.rose3{
+    background: rosybrown;
+    height: 200px;
+    width: 100px;
+    float: left;
+    margin-top: 32px;
+}
+.yellow3{
+    background: yellow;
+    height: 200px;
+    width: 100px;
+    float: left;
+    margin-top: 32px;
+}
+.corn23{
+    background: cornflowerblue;
+    height: 320px;
+    width: 300px;
+    float: left;
+    position: relative;
+}
+.red23{
+    background: red;
+    height: 250px;
+    width: 100px;
+    float: left;
+    margin-top: 52px;   
+}
+.yellow23{
+    background: yellow;
+    height: 250px;
+    width: 100px;
+    float: left;
+    margin-top: 52px;
+}
+.orange233{
+    background: orange;
+    height: 200px;
+    width: 50px;
+    float: left;
+    margin-top: 32px;
+}
+.red233{
+    background: red;
+    height: 100px;
+    width: 50px;
+    float: left;
+    margin-top: 132px;
+}
+.orange23{
+    background: orange;
+    height: 250px;
+    width: 100px;
+    float: left;
+    margin-top: 52px;
+}
+.blue3{
+    background: blue;
+    height: 320px;
+    width: 300px;
+    float: left;
+}
+.corn33{
+    background: cornflowerblue;
+    height: 150px;
+    width: 100px;
+    float: left;
+    margin-top: 152px;
+}
+.yellow33{
+    background: yellow;
+    height: 150px;
+    width: 100px;
+    float: left;
+    margin-top: 100px;
+}
+.orange33{
+    background: orange;
+    height: 150px;
+    width: 100px;
+    float: left;
+    margin-top: 48px;
+}
+.text1{
+    background: black;
+    height: 20px;
+    width: 65px;
+    margin-top: 70px;
+}
+.text2{
+    background: black;
+    height: 20px;
+    width: 65px;
+    margin-top: 30px;
+    margin-left: 35px;
+}
+.text{
+    color: white;
+}

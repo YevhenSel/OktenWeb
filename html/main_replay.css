@@ -1,0 +1,151 @@
+.all{
+    width: auto;
+    border: 5px solid red;
+    margin: 0 auto;
+}
+p{
+    margin: auto;
+    text-align: center;  
+}
+.first{
+    background: violet;
+    width: auto;
+    height: 200px;
+}
+.white{
+    background: white;
+    width: auto;
+    height: 70px;
+    margin: 20px 70px;
+    padding: 25px 70px;
+}
+.black{
+    background: black;
+    width: auto;
+    height: 70px;
+}
+.second{
+    background: silver;
+    width: auto;
+    height: 100px;
+    padding-bottom: 20px;
+}
+.red, .orange, .palet, .yellow{
+    width: 25%;
+    height: 80px;
+    float: left;
+}
+.red{
+    background: red;
+}
+.orange{
+    background: orange;
+}
+.palet{
+    background: paleturquoise;
+}
+.yellow{
+    background: yellow;
+}
+.third{
+    width: auto;
+}
+.clear{
+    clear: both;
+}
+.green1, .palet2, .blue3{
+    width: 33.33%;
+    height: 300px;
+    float: left;
+}
+.green1{
+    background: green;
+}
+.orange1{
+    background: orange;
+    width: auto;
+    height: 240px;
+    margin-top: 42px;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+.rosy1, .yellow1{
+    width: 50%;
+    height: 200px;
+    float: left;
+    margin-top: 22px;
+}
+.rosy1{
+    background: rosybrown;
+}
+.yellow1{
+    background: yellow;
+}
+.palet2{
+    background: paleturquoise;
+}
+.red2, .yellow2, .orange2{
+    width: 33.33%;
+    height: 240px;
+    float: left;
+    margin-top: 42px;
+}
+.red2{
+    background: red;
+}
+.yellow2{
+    background: yellow;
+}
+.orange22, .red22{
+    width: 50%;
+    float: left;
+}
+.orange22{
+    background: orange;
+    height: 202px;
+    margin-top: 20px;
+}
+.red22{
+    background: red;
+    height: 72px;
+    margin-top: 150px;
+}
+.orange2{
+    background: orange;
+}
+.blue3{
+    background: blue;
+}
+.palet3, .yellow3, .orange3{
+    width: 33.33%;
+    height: 120px;
+    float: left;
+}
+.palet3{
+    background: paleturquoise;
+    margin-top: 162px;
+}
+.yellow3{
+    background: yellow;
+    margin-top: 115px;
+}
+.orange3{
+    background: orange;
+    margin-top: 68px;
+}
+.text{
+    color: white;
+    font-style: italic;
+}
+.black1, .black2{
+    width: 60%;
+    height: 20px;
+    background: black;
+}
+.black1{
+    margin-top: 30px;
+    margin-left: 40%;
+}
+.black2{
+    margin-top: 30px;
+}

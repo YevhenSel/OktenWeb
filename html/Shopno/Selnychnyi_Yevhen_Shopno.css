@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+header{
+    width: 1100px;
+    height: 700px;
+    background-color: #eff0f2;
+}
+header .top{
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    height: 100px;
+}
+header .top .top_left{
+    margin-top: 40px;
+    margin-left: 100px;
+    padding: 5px;
+}
+header .top .top_left .shopno{
+    font-size: 23px;
+    border: 4px solid black;
+    padding: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+header .top .top_left .shopno span{
+    font-size: 28px;
+    color: aqua;
+}
+header .top .top_right{
+    color: gray;
+    padding-top: 40px;
+    padding-right: 100px;
+    font-size: 30px;
+}
+header .center{
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    font-weight: bold;
+    width: 1100px;
+    height: 240px;
+    margin-top: 130px;
+}
+header .center .center1, header .center .center2{
+    width: 1100px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+header .center .center1 span, header .center .center2 span{
+    background-color: aqua;
+    padding: 0px 8px 0px 8px;
+}
+header .center .but{
+    width: 1100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+}
+header .but button{
+    text-transform: uppercase;
+    font-size: 25px;
+    width: max-content;
+    height: max-content;
+    padding: 8px 20px 8px 20px;
+}
+header .buttom{
+    width: 1100px;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+header .buttom i{
+    font-size: 90px;
+    margin-right: 150px;
+}
+.about_us{
+    width: 1100px;
+    height: 700px;
+    background-color: #f8fafa;
+    display: flex;
+    flex-direction: column;
+}
+.about_us .text{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.about_us .text h2{
+    font-weight: bold;
+    font-size: 30px;
+}
+.about_us .info{
+    width: 1100px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+.about_us .info .img img{
+    width: 400px;
+    height: 400px;
+}
+.about_us .info .img{
+    width: 400px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about_us .info .img i{
+    font-size: 30px;
+}
+.about_us .info .img_text{
+    width: 400px;
+    height: 350px;
+    font-size: 19px;
+    margin-left: 100px;
+}
+.about_us .info .img_text h2{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.featured{
+    width: 1100px;
+    height: 850px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.featured .text{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.featured .text h2{
+    font-weight: bold;
+    font-size: 30px;
+}
+.featured .img img{
+    width: 260px;
+    height: 260px;
+    margin: 10px;
+}
+.featured .img{
+    width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.our{
+    width: 1100px;
+    height: 1250px;
+    background-color: #f9fbfb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.our .text{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.our .text h2{
+    font-weight: bold;
+    font-size: 30px;
+}
+.our .block{
+    width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.our .block .block1, .our .block .block3, .our .block .block6{
+    width: 500px;
+    height: 300px;
+    margin: 5px;
+}
+.our .block .block2, .our .block .block4, .our .block .block5{
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+}
+.small{
+    width: 1100px;
+    height: 1000px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.small .text{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.small .text h2{
+    font-weight: bold;
+    font-size: 30px;
+}
+.small .img img{
+    width: 260px;
+    height: 320px;
+    margin: 10px;
+}
+.small .img{
+    width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.what{
+    width: 1100px;
+    height: 800px;
+    background-color: #f9fbfb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.what .text{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.what .text h2{
+    font-weight: bold;
+    font-size: 30px;
+}
+.what .block{
+    width: 1100px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.what .block .block1 img{
+    width: 330px;
+    height: 350px;
+    margin: 20px;
+}
+.what .block .block2 img{
+    width: 600px;
+    height: 300px;
+    margin: 20px;
+}
+.what .block .block1, .what .block .block2{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+}
+.what .block .block2{
+    align-items: flex-end;
+}
+.what .block .block1{
+    align-items: center;
+}
+.what .block .block2 .left_right{
+    margin-right: 20px;
+}
+.what .block .block2 .left_right i{
+    margin: 10px;
+}
+.firm{
+    width: 1100px;
+    height: 250px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.firm .block1 i, .firm .block2 i{
+    font-size: 70px;
+    color: gray;
+    margin: 30px;
+}
+.navi{
+    width: 1100px;
+    height: 600px;
+    background-image: url("christmas_snow_trees-wide.png");
+    display: flex;
+    justify-content: center;
+}
+.navi form{
+    background: rgba(74, 89, 98, 0.8);
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    margin-top: 30px;
+    padding: 0 30px 20px 20px;
+}
+.navi form label .name, .navi form label .sub, .navi form label .mail, .navi form label .mas{
+    background: transparent;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid #B8B8B8;
+    padding:10px 0 10px 5px;
+    margin-top: 10px;
+    color: white;
+    width: 400px;
+}
+.navi form label .mas{
+    height: 50px;
+}
+input::placeholder{
+    color: #B8B8B8;
+}
+.navi form button{
+    font-size: 30px;
+    padding: 10px;
+    background: aqua;
+    border: none;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.navi .map{
+    background: rgba(74, 89, 98, 0.8);
+    width: 350px;
+    height: 400px;
+    margin: 10px;
+    margin-top: 30px;
+    padding: 0 20px 20px 20px;
+    font-size: 20px;
+    color: white;
+}
+iframe{
+    width: 350px;
+    height: 200px;
+    frameborder: 0;
+    border: 0;
+    allowfullscreen: "";
+    aria-hidden: "false";
+    tabindex: 0
+}
+.end{
+    width: 1100px;
+    height: 250px;
+    background-color: #262b2e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.end .text1{
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+}
+.end .icon{
+    font-size: 50px;
+    color: #424648;
+}
+.end .text2{
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
