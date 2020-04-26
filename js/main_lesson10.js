@@ -42,8 +42,75 @@
 // Зображення 1 — Приклад виклику функції
 // getCardOptions
 
-
-
+function userCard(number) {
+	let key = number <= 3
+		? number
+		: 'key error'
+	let balance = 100;
+	let transactionLimit = 100;
+	let historyLogs = [];
+	function getCardOptions() {
+		return `key : ${key}; ` +
+			`balance : ${balance}; ` +
+			`transactionLimit : ${transactionLimit}; ` +
+			`historyLogs : ${JSON.stringify(historyLogs)}`
+	}
+	function addHistoryLogs(operationType, credits, operationTime) {
+		historyLogs.push({operationType, credits, operationTime})
+	}
+	function putCredits(money) {
+		let now = new Date()
+		let date = now.toLocaleDateString()
+		let time = now.toLocaleTimeString()
+		balance += money;
+		addHistoryLogs('putCredits', money, date + ', ' + time)
+	}
+	function takeCredits(money) {
+		let now = new Date()
+		let date = now.toLocaleDateString()
+		let time = now.toLocaleTimeString()
+		if (money <= transactionLimit && money <= balance) {
+			balance -= money;
+			addHistoryLogs('putCredits', money, date + ', ' + time)
+		}else {
+			console.log('error')
+		}
+	}
+	function setTransactionLimit(number) {
+		transactionLimit = number;
+		let now = new Date()
+		let date = now.toLocaleDateString()
+		let time = now.toLocaleTimeString()
+		addHistoryLogs('setTransactionLimit', number, date + ', ' + time)
+	}
+	function transferCredits(money, card) {
+		let number = money * 1.005
+		if (number <= balance && number <= transactionLimit) {
+			balance -= number;
+			card.putCredits(number);
+		}else {
+			console.log('no money, no honey');
+		}
+	}
+	function addKey() {
+		return key;
+	}
+	return {
+		getCardOptions,
+		putCredits,
+		takeCredits,
+		setTransactionLimit,
+		transferCredits,
+		addKey
+	}
+}
+const userCard1 = userCard(1);
+const userCard2 = userCard(2);
+userCard1.putCredits(120);
+userCard1.takeCredits(50);
+userCard1.setTransactionLimit(270);
+userCard1.transferCredits(50, userCard2);
+console.log(userCard1.getCardOptions());
 
 
 // 2) Створити UserAccount:
@@ -86,3 +153,42 @@
 // Посилання
 // - https://css-tricks.com/javascript-scope-closures/
 // - https://developer.mozilla.org/uk/docs/Web/JavaScript/Reference/Classes
+
+class UserAccount {
+	constructor(name) {
+		this.name = name;
+		this.card = [];
+	}
+}
+UserAccount.prototype.addCard = function () {
+	if (this.card.length < 3){
+		this.card.push(new userCard(this.card.length+1))
+	}else {
+		console.log('card error')
+	}
+}
+UserAccount.prototype.getInfo = function () {
+	console.log(this);
+}
+UserAccount.prototype.getCardByKey = function (number) {
+	return this.card.find(value => value.addKey() === number);
+}
+
+let user1 = new UserAccount('Yevhen');
+user1.addCard()
+user1.addCard()
+user1.addCard()
+user1.addCard()
+user1.getInfo()
+
+const card1 = user1.getCardByKey(1);
+const card2 = user1.getCardByKey(2);
+
+card1.putCredits(3000);
+card1.setTransactionLimit(700);
+card1.transferCredits(350, card2);
+
+card2.takeCredits(200);
+
+console.log(card2.getCardOptions());
+console.log(card1.getCardOptions());
